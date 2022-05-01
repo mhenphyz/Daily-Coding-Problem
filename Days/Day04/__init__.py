@@ -14,8 +14,6 @@ def day04(int_array):
     int_array.sort()
 
     max_positive_array = range(1, int(int_array[-1] + 2))
-    
-    print(max_positive_array)
 
     remove_negatives = [n for n in int_array if n > 0]
 
